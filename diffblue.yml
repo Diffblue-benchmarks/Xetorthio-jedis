@@ -1,7 +1,6 @@
 cbmcArguments:
   classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
   depth: false
-  do-not-test-methods-with-access: [ private ]
 phases:
 -
   timeout: 300
